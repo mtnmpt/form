@@ -1,7 +1,7 @@
 __pycache__/
 db.sqlite3
 
-form/form/form/__pycache__/
+form/__pycache__/
 
 *__init__.py
 
