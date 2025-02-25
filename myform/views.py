@@ -13,6 +13,9 @@ def login(request):
         print(f'Tài khoản {username} \nMật khẩu {password}')
         
         context = {'form':my_form}
+
+
+        
         return render(request=request,template_name='login.html',context=context)
     else:
         my_form = MyForm()
